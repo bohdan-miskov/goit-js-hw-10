@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/vanilla-app-template/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/2-snackbar-BF1J7sGm.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-9DmWdIqY.css">
+  </head>
+  <body>
+    <main>
+      <a href="./index.html" class="nav-link">Go to back</a>
+      <section>
+        <div class="container">
+          <form class="form">
+            <label>
+              Delay (ms)
+              <input type="number" name="delay" required />
+            </label>
+            <fieldset>
+              <legend>State</legend>
+              <label>
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+              </label>
+              <label>
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+              </label>
+            </fieldset>
+            <button type="submit">Create notification</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
